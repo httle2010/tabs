@@ -1,0 +1,39 @@
+/* Layout & Container */
+.tabs-container {
+  max-width: 600px;
+  margin: 40px auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+.tab-header {
+  display: flex;
+  gap: 30px;
+}
+
+.tab-btn {
+  border: none;
+  background-color: white;
+  font-size: x-large;
+  color: gray;
+}
+
+.tab-btn.active {
+  color: black;
+  text-decoration-line: underline;
+}
+
+.tab-content-wrapper {
+  padding: 24px;
+  background-color: #ffffff;
+}
+
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.active {
+  display: block;
+}

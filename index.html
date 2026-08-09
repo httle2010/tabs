@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tab Navigation Project</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="tabs-container">
+      <!-- Tab Buttons Header -->
+      <div class="tab-header" role="tablist">
+        <button class="tab-btn active" data-tab="tab-1">Tab 1</button>
+        <button class="tab-btn" data-tab="tab-2">Tab 2</button>
+        <button class="tab-btn" data-tab="tab-3">Tab 3</button>
+        <button class="tab-btn" data-tab="tab-4">Tab 4</button>
+      </div>
+
+      <!-- Tab Content Panels -->
+      <div class="tab-content-wrapper">
+        <div id="tab-1" class="tab-panel active">
+          <h2>Tab 1 Title</h2>
+          <p>
+            This is the content for Tab 1. It is active by default on page load.
+          </p>
+        </div>
+
+        <div id="tab-2" class="tab-panel">
+          <h2>Tab 2 Title</h2>
+          <p>
+            This is the content for Tab 2. It will be shown when Tab 2 is
+            clicked.
+          </p>
+        </div>
+
+        <div id="tab-3" class="tab-panel">
+          <h2>Tab 3 Title</h2>
+          <p>
+            This is the content for Tab 3. It will be shown when Tab 3 is
+            clicked.
+          </p>
+        </div>
+
+        <div id="tab-4" class="tab-panel">
+          <h2>Tab 4 Title</h2>
+          <p>
+            This is the content for Tab 4. It will be shown when Tab 4 is
+            clicked.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
